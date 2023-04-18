@@ -13,8 +13,8 @@ This repository contains source code related to the paper
 - `./data` directory contains input files
 - `./preprocessing` directory contains scripts for preparing data
 - `./filtering` directory contains scripts for filtering predications with BERT
-- `./models` directory contains scripts for knowledge graph completion
-- `./predictions` directory contains output files from graph completion models
+- `./models` directory contains scripts for knowledge graph embedding and link prediction
+- `./predictions` directory contains output files from link prediction model
 
 ## Contact
 
