@@ -1,1 +1,1 @@
-
+We directly invoke the command line toolkit provided by DGL-KE to learn the embedding of entities and relations in ADInt.  We used four different models here, including TransE, RotatE, DistMult, and ComplEx.
