@@ -1,4 +1,4 @@
-# Repurposing Interventions for Alzheimer's Diseases through Link Prediction on Biomedical Literature.
+# Repurposing non-pharmacological interventions for Alzheimer's disease through link prediction on biomedical literature
 
 This repository contains source code related to the paper
 
