@@ -208,11 +208,11 @@ def perturb_and_get_filtered_rank(emb, w, s, r, o, test_size, triplets_to_filter
         if filter_o:
             emb_s = emb[target_s]  # Vector
             emb_o = emb[candidate_nodes]  # A set of vectors
-            target_idx = target_o
         else:
             emb_s = emb[candidate_nodes]
             emb_o = emb[target_o]
-            target_idx = target_s
+        target_idx = 0    
+        
         emb_r = w[target_r]
         emb_triplet = emb_s * emb_r * emb_o  # Distmult
         scores = torch.sigmoid(torch.sum(emb_triplet, dim=1))
